@@ -28,6 +28,8 @@ During the development of the "Discord Security Bot" project, I faced several ch
 
 ## Video
 
+https://github.com/EngDann/discord-Bot/assets/137555908/6c9b0162-9605-4fc3-9c0e-dca2db535a8f
+
 ## How to Use
 
 To experience the "Discord Security Bot" simulation, follow these steps:
@@ -132,6 +134,8 @@ Durante o desenvolvimento do projeto "Discord Security Bot", enfrentei vários d
 -   **Resolução de Problemas**: Melhorei minhas habilidades de resolução de problemas ao lidar com vários desafios de design e garantir a compatibilidade entre navegadores.
 
 ## Video
+
+https://github.com/EngDann/discord-Bot/assets/137555908/6c9b0162-9605-4fc3-9c0e-dca2db535a8f
 
 ## Como Usar
 
