@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap')
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    text-decoration: none
+    list-style: none
+    font-family: "Righteous", sans-serif
+    font-weight: 400
+    font-style: normal
+
+body
+    font-size: 100%
+    min-height: 100vh
+    background-image: linear-gradient(to left top, #1d1462, #004a97, #007ec2, #00b4e3, #67e9ff)
+
+.header
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-around
+    padding: 24px
+    &-img
+        height: 100%
+    &-nav
+        ul
+            display: flex
+            gap: 3rem
+            .header-nav-item
+                a
+                    transition: .4s
+                    font-family: "Sarala", sans-serif
+                    font-weight: 400
+                    font-size: 18px
+                    color: #FFF2E7
+                a:hover
+                    color: #1D1462
+
+.content
+    border-top: 0.4px solid #FFF2E7
+    margin-bottom: 4rem
+    &-main
+        display: flex
+        align-items: center
+        justify-content: space-around
+        &-written
+            display: flex
+            flex-direction: column
+            gap: 1rem
+            &-title
+                font-weight: 400
+                font-size: 64px
+                color: #FFF2E7
+            &-subtitle
+                font-weight: 400
+                font-size: 24px
+                color: #ECD6C4
+            &-btn
+                background-color: #67E9FF
+                color: #1D1462
+                width: 180px
+                height: 60px
+                font-weight: 400
+                font-size: 24px
+                border: none
+                border-radius: 20px
+                box-shadow: 4px 5px 4px rgba(0,0, 0, 0.25)
+                transition: .4s
+            &-btn:hover
+                background-color: #1D1462
+                color: #02AFAC
+        &-img
+            margin-top: 4rem
+            background-image: url("../img/26569089_5100_9_10.svg")
+            background-size: cover
+            background-position: center
+            background-repeat: no-repeat
+            height: 500px
+            width: 500px
+            border-radius: 50%
+    &-secondary
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 1.5rem
+        margin-top: 4rem
+        &-title
+            border-top: 0.4px solid #FFF2E7
+            padding-top: 2rem
+            font-weight: 400
+            font-size: 24px
+            color: #ECD6C4
+            margin-bottom: 0.5rem
+        &-paragraph
+            font-family: "Sarala", sans-serif
+            font-weight: 300
+            font-size: 18px
+            color: #ECD6C4
+
+.footer
+    border-top: 0.4px solid #FFF2E7
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    align-items: center
+    color: #FFF2E7
+    padding: 2rem
+    position: relative
+    bottom: 0
+    left: 0
+    right: 0
+    &-links
+        display: flex
+        gap: 1rem
+        a
+            color: #FFF2E7
+            transition: .4s
+        a:hover
+            color: #67E9FF
+
+@media screen and ( max-width:888px)
+    .content-main
+        flex-direction: column
+        align-items: center
+        text-align: center
+        justify-content: center
+    .content-main-written
+        align-items: center
+@media screen and ( max-width:714px)
+    .header-nav
+        display: none
+    .content-secondary
+        padding: 0.5rem
+    .footer
+        position: relative
+
+@media screen and ( max-width:490px)
+    .content-main-img
+        height: 350px
+        width: 350px
+@media screen and ( max-width:490px)
+    .content-main-img
+        height: 350px
+        width: 350px
+@media screen and ( max-width:370px)
+.content-main-img
+    height: 300px
+    width: 300px
